@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Cairo:200,300,regular,500,600,700,800,900"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <title>TinyNotesMD</title>
+    </head>
+    <body>
+        <main>
+            <div class="logo">
+                <h1 class="logo__text"># TinyNotesMD</h1>
+            </div>
+            <div class="categories-container">
+                <div class="new-category">
+                    <button id="new-category">+ Neue Kategorie</button>
+                </div>
+                <div class="new-category-form">
+                    <input type="text" name="" id="new-category-title" disabled hidden />
+                </div>
+                <ul class="categories" id="categories"></ul>
+            </div>
+            <div class="new-note">
+                <button id="new-note" hidden>+ Neue Notiz</button>
+            </div>
+
+            <div class="notes-container">
+                <div class="new-note-form">
+                    <input type="text" name="" id="new-note-title" hidden disabled />
+                </div>
+                <ul id="notes-list"></ul>
+            </div>
+        </main>
+    </body>
+</html>
